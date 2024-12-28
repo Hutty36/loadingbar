@@ -5,7 +5,7 @@ print("Hello")
 x = 123
 progress = 0
 prev_progress = 0
-print(" " + "_" * 34 + " . . . work in Progress . . . " + "_" * 34 + " ")
+print(" " + "_" * 34 + " . . . work in progress . . . " + "_" * 34 + " ")
 for i in range (x):
     progress = int((i / x) * 100) - 1
     if (progress > prev_progress and progress > 0):
